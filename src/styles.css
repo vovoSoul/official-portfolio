@@ -1,0 +1,13 @@
+body {
+  background-color: pink;
+}
+h1 {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+}
