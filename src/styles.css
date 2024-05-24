@@ -15,7 +15,6 @@ body {
   text-align: center;
   font-size: 36px;
   padding: 160px 0;
-  max-width: 600px;
   display: block;
   margin: auto;
 }
@@ -25,7 +24,7 @@ body {
   font-size: 96px;
 }
 .container1 h2 {
-  color: gray;
+  color: darkgrey;
   font-family: "Playfair Display", serif;
   font-weight: bold;
 }
@@ -74,9 +73,13 @@ img {
 }
 
 .container {
-  background-color: #fed2d2;
-  color: white;
+  background-color: #e7e7e7;
+  color: darkgray;
   padding: 30px;
+}
+
+.container.about-section {
+  color: black;
 }
 
 @media (max-width: 900px) {
