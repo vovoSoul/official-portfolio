@@ -97,6 +97,30 @@ img {
   text-align: center;
 }
 
+nav li {
+  list-style-type: none;
+  display: inline;
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+nav a .active {
+  color: var(--secondary-color);
+}
+nav a {
+  text-decoration: none;
+  color: grey;
+}
+
+nav a:hover {
+  color: var(--secondary-color);
+}
+
+nav h5 {
+  font-size: 20px;
+  color: grey;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 18px;
@@ -109,5 +133,9 @@ img {
 
   .title {
     font-size: 8px;
+  }
+
+  h5 {
+    display: none;
   }
 }
