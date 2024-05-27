@@ -35,27 +35,58 @@
   </head>
   <body>
     <div class="container mt-5 p-5 about-section">
-      <div class="row">
-        <div class="col-md-6">
-          <h1>Hi I'm Yvonne</h1>
-          <h2>software developer based in New York</h2>
-          <p class="mt-5">
-            Hey there! I'm Yvonne Namungoma, a front-end developer based in New
-            York with a love for creating beautiful, interactive, and
-            user-friendly web applications. I got hooked on coding out of sheer
-            curiosity, I've sharpened my skills in HTML, CSS, and JavaScript
-            through lots of hands-on projects and continuous learning. I'm great
-            with modern frameworks like React, and I always strive to make sure
-            my projects are not just functional but also visually stunning. My
-            goal is to turn complex problems into simple, elegant solutions that
-            offer amazing user experiences.
-          </p>
-
-          <a href="#" class="btn mt-3">view my projects</a>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/AI-poem-generator.JPG"
+              class="d-block w-50 h-25"
+              alt="..."
+            />
+            <h3>AI- poem generator</h3>
+            <p>built with HTML CSS JS</p>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/weatherapp.JPG"
+              class="d-block w-50 h-25"
+              alt="..."
+            />
+            <h3>Weather app</h3>
+            <p>built with HTML CSS JS</p>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/worldclock.JPG"
+              class="d-block w-50 h-25"
+              alt="..."
+            />
+            <h3>world clock</h3>
+            <p>built with HTML CSS JS</p>
+          </div>
         </div>
-        <div class="col-md-6">
-          <img src="images/facepic.JPG" class="img-fluid mt-4" alt="" />
-        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   </body>

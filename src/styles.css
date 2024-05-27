@@ -78,20 +78,23 @@ img {
   padding: 30px;
 }
 
-.container.about-section body {
+.container.section body {
   background-color: #f6e3cd;
 }
-.container.about-section {
+.container.section {
   color: black;
   text-align: left;
   background-color: #ded0cb;
 }
 
-.container.about-section h1 {
+.container.section h1 {
   font-size: 64px;
 }
-.container.about-section h2 {
+.container.section h2 {
   font-size: 24px;
+}
+.carousel-item {
+  text-align: center;
 }
 
 @media (max-width: 900px) {
