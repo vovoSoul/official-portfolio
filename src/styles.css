@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: var(--branding-color);
+  background-color: #feefea;
 }
 .container1 {
   font-family: "Playfair Display", serif;
@@ -74,12 +74,24 @@ img {
 
 .container {
   background-color: #e7e7e7;
-  color: darkgray;
+  color: #ded0cb;
   padding: 30px;
 }
 
+.container.about-section body {
+  background-color: #f6e3cd;
+}
 .container.about-section {
   color: black;
+  text-align: left;
+  background-color: #ded0cb;
+}
+
+.container.about-section h1 {
+  font-size: 64px;
+}
+.container.about-section h2 {
+  font-size: 24px;
 }
 
 @media (max-width: 900px) {
