@@ -7,14 +7,13 @@
 }
 
 body {
-  background-color: #feefea;
+  background-color: #fdefea;
 }
 .container1 {
   font-family: "Playfair Display", serif;
-  background-color: var(--branding-color);
+  background-color: #fdefea;
   text-align: center;
   font-size: 36px;
-  padding: 160px 0;
   display: block;
   margin: auto;
 }
@@ -24,7 +23,7 @@ body {
   font-size: 96px;
 }
 .container1 h2 {
-  color: darkgrey;
+  color: lightslategray;
   font-family: "Playfair Display", serif;
   font-weight: bold;
 }
@@ -63,7 +62,6 @@ p {
 
 img {
   background-color: #feefea;
-
   border: 10px solid var(--branding-color);
   margin-top: 20px;
   height: 2500px;
@@ -74,7 +72,7 @@ img {
 
 .container {
   background-color: #e7e7e7;
-  color: #ded0cb;
+  color: black;
   padding: 30px;
 }
 
@@ -97,11 +95,22 @@ img {
   text-align: center;
 }
 
+.carousel-item a {
+  text-decoration: none;
+}
+
+.carousel-item a:hover {
+  color: grey;
+}
+
 nav li {
   list-style-type: none;
   display: inline;
   line-height: 40px;
   margin-left: 15px;
+}
+nav ul {
+  padding-right: 0%;
 }
 
 nav a .active {
@@ -116,6 +125,10 @@ nav a:hover {
   color: var(--secondary-color);
 }
 
+h3 a {
+  color: var(--secondary-color);
+}
+
 nav h5 {
   font-size: 20px;
   color: grey;
@@ -124,6 +137,7 @@ nav h5 {
 footer {
   border-top: 1px dashed var(--secondary-color);
   padding-top: 10px;
+  margin: 45px;
 }
 
 footer a {
@@ -154,7 +168,21 @@ footer a:hover {
     font-size: 8px;
   }
 
-  h5 {
+  h5 .name {
     display: none;
+  }
+  nav li {
+    margin-left: 5px;
+
+    display: list-item;
+    line-height: 20px;
+  }
+
+  .container1 .title {
+    font-size: 15px;
+  }
+
+  .container1 h1 {
+    font-size: 50px;
   }
 }
